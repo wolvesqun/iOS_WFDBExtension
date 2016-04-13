@@ -31,6 +31,7 @@
 		2C6C8A2B1C4DD8B20024139A /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C6C8A2A1C4DD8B20024139A /* libsqlite3.tbd */; };
 		2C6C8A2F1C4DD8DF0024139A /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6C8A2E1C4DD8DF0024139A /* User.m */; };
 		2C6C8A3C1C4F1C600024139A /* BaseUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6C8A3B1C4F1C600024139A /* BaseUser.m */; };
+		BC5333621CBE852D0045F6A6 /* WFEncryptionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5333611CBE852D0045F6A6 /* WFEncryptionHelper.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +99,8 @@
 		2C6C8A2E1C4DD8DF0024139A /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		2C6C8A3A1C4F1C600024139A /* BaseUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseUser.h; sourceTree = "<group>"; };
 		2C6C8A3B1C4F1C600024139A /* BaseUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseUser.m; sourceTree = "<group>"; };
+		BC5333601CBE852D0045F6A6 /* WFEncryptionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFEncryptionHelper.h; sourceTree = "<group>"; };
+		BC5333611CBE852D0045F6A6 /* WFEncryptionHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFEncryptionHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +197,7 @@
 		2C6C8A001C4DD8560024139A /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				BC53335F1CBE85200045F6A6 /* Helper */,
 				2C6C8A011C4DD8560024139A /* FMDB */,
 				2C6C8A0D1C4DD8560024139A /* WFDBExtension */,
 			);
@@ -250,6 +254,16 @@
 			);
 			name = Bean;
 			sourceTree = "<group>";
+		};
+		BC53335F1CBE85200045F6A6 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				BC5333601CBE852D0045F6A6 /* WFEncryptionHelper.h */,
+				BC5333611CBE852D0045F6A6 /* WFEncryptionHelper.m */,
+			);
+			name = Helper;
+			path = testWFDBExtendsion/Helper;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -393,6 +407,7 @@
 				2C6C8A231C4DD8560024139A /* WFDatabaseHelper.m in Sources */,
 				2C6C8A271C4DD8560024139A /* WFFoundation.m in Sources */,
 				2C6C89CF1C4DD8170024139A /* main.m in Sources */,
+				BC5333621CBE852D0045F6A6 /* WFEncryptionHelper.m in Sources */,
 				2C6C8A1D1C4DD8560024139A /* FMDatabase.m in Sources */,
 				2C6C8A281C4DD8560024139A /* WFIvar.m in Sources */,
 				2C6C8A3C1C4F1C600024139A /* BaseUser.m in Sources */,
@@ -489,7 +504,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -527,7 +542,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -540,6 +555,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = testWFDBExtendsion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ubmlib.testWFDBExtendsion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -551,6 +567,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = testWFDBExtendsion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ubmlib.testWFDBExtendsion;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -17,7 +17,7 @@
 
 @property (strong, nonatomic) NSString *username;
 
-@property (strong, nonatomic) NSMutableString *password;
+@property (strong, nonatomic) NSString *password;
 
 @property (assign, nonatomic) NSInteger year;
 

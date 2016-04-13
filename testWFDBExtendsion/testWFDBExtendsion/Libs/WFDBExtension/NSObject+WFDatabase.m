@@ -228,6 +228,7 @@
     return rs;
 }
 
+#pragma mark - 构建 查询条件
 // - 构建 查询条件
 + (NSString *)buildWhereSQL:(NSArray *)whereSQLParamArray
 {
@@ -321,6 +322,7 @@
     return bean;
 }
 
+#pragma mark -
 + (void)enumerateIvarsWithBlockByWF:(void(^)(WFIvar *ivar))block
 {
     if(!block) return;

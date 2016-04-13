@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "f282c899-c794-48a2-8980-bbf9def362de",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "f282c899-c794-48a2-8980-bbf9def362de" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "f282c899-c794-48a2-8980-bbf9def362de" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5A95A2F5-6345-464C-8CC1-3D3C48BC9CE4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "f282c899-c794-48a2-8980-bbf9def362de" : "ios-WFDBExtension\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "testWFDBExtendsion",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "trunk\/testWFDBExtendsion\/testWFDBExtendsion.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/571719049%40qq.com@code.taobao.org\/svn\/ios-WFDBExtension",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "f282c899-c794-48a2-8980-bbf9def362de"
+    }
+  ]
+}

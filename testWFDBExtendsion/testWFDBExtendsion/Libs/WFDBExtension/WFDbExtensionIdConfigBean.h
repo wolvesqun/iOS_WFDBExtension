@@ -3,7 +3,7 @@
 //  Wiki
 //
 //  Created by mba on 16/1/18.
-//  Copyright © 2016年 ubmlib. All rights reserved.
+//  Copyright © 2015年 ubmlib. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

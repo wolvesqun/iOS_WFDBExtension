@@ -2,8 +2,8 @@
 //  ViewController.m
 //  testWFDBExtendsion
 //
-//  Created by mba on 16/1/19.
-//  Copyright © 2016年 ubmlib. All rights reserved.
+//  Created by mba on 15/1/19.
+//  Copyright © 2015年 ubmlib. All rights reserved.
 //
 
 // code http://code.taobao.org/svn/ios-WFDBExtension/

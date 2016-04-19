@@ -2,8 +2,8 @@
 //  ViewController.h
 //  testWFDBExtendsion
 //
-//  Created by mba on 16/1/19.
-//  Copyright © 2016年 ubmlib. All rights reserved.
+//  Created by mba on 15/1/19.
+//  Copyright © 2015年 ubmlib. All rights reserved.
 //
 
 // 技术交流群 ：148663441

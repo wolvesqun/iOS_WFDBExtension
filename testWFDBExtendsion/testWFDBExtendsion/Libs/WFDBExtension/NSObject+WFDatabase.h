@@ -2,8 +2,8 @@
 //  NSObject+WFDatabase.h
 //  Wiki
 //
-//  Created by wolvesqun on 16/1/15.
-//  Copyright © 2016年 ubmlib. All rights reserved.
+//  Created by wolvesqun on 15/1/15.
+//  Copyright © 2015年 ubmlib. All rights reserved.
 //
 
 // code http://code.taobao.org/svn/ios-WFDBExtension/

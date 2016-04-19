@@ -2,8 +2,8 @@
 //  NSObject+WFDatabase.m
 //  Wiki
 //
-//  Created by mba on 16/1/15.
-//  Copyright © 2016年 ubmlib. All rights reserved.
+//  Created by mba on 15/1/15.
+//  Copyright © 2015年 ubmlib. All rights reserved.
 //
 
 #import "NSObject+WFDatabase.h"
@@ -34,7 +34,7 @@
          {
              if(ivar.type.typeClass && [WFFoundation ignoreFoundationClass:ivar.type.typeClass]) return;
              
-             if(ivar.type.isKVCDisabled || configBean.autoContentAccessingProxy ) return;
+             if(ivar.type.isKVCDisabled || configBean.pkAutoIncrement ) return;
              
              id propertyValue = [bean valueForKey:ivar.propertyName];
              
@@ -240,9 +240,9 @@
 }
 + (NSString *)buildSetupSQL:(NSArray *)setupSQLArray
 {
-    NSMutableString *whereSQLString = [NSMutableString stringWithString:@" where 1 = 1"];
-    for (NSString *whereSQL in setupSQLArray) {
-        [whereSQLString appendFormat:@" %@ = ?,", whereSQL];
+    NSMutableString *whereSQLString = [NSMutableString string];
+    for (NSString *setSQL in setupSQLArray) {
+        [whereSQLString appendFormat:@" %@ = ?,", setSQL];
     }
     [whereSQLString substringToIndex:whereSQLString.length - 1];
     return whereSQLString;

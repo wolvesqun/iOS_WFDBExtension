@@ -32,11 +32,12 @@
 + (BOOL)DB_addWithBean:(id)bean;
 
 /**
- *  @name delete 
+ *  @name delete rows with idvalue
  */
 + (BOOL)DB_deleteWithIdValue:(id)idValue;
 + (BOOL)DB_deleteWithWhereSQL:(NSDictionary *)whereSQLParam;
 
++ (BOOL)DB_updateWithBean:(id)bean;
 + (BOOL)DB_updateWithSetupSQL:(NSDictionary *)setupParam andWhereSQL:(NSDictionary *)whereSQLParam;
 
 + (id)DB_findWithIdValue:(id)idValue;

@@ -675,6 +675,51 @@ typedef struct {
     return rs;
 }
 
++ (BOOL)DB_updateWithBean:(id)bean
+{
+    if(![bean respondsToSelector:@selector(getId)] || [bean getId].length == 0) return NO;
+    BOOL rs = NO;
+    WF_DBMetaClassInfo *metaClass = [WF_DBMetaClassInfo metaWithClass:self.class];
+    if(metaClass != nil && metaClass.classInfo.classname && WFClassTypeIsSameObjcType(bean, metaClass.allProperyArray))
+    {
+        NSMutableString *setupSQL = [NSMutableString string];
+        NSMutableArray *valueArray = [NSMutableArray array];
+        __block id idValue = nil;
+        [metaClass.allProperyArray enumerateObjectsUsingBlock:^(WF_DBMetaClassProperyInfo * metaProperty, NSUInteger idx, BOOL * _Nonnull stop)
+         {
+             id propertyValue = WFBeanObjectValueFromProperty(bean, metaProperty);
+             if([[bean getId] isEqualToString:metaProperty->_name]) // table identifier
+             {
+                 idValue = propertyValue;
+             }
+             else
+             {
+                 if(propertyValue != nil && ![propertyValue isKindOfClass:[NSNull class]])
+                 {
+                     [setupSQL appendFormat:@" %@ = ?,", metaProperty->_name];
+                     [valueArray addObject:propertyValue];
+                 }
+             }
+         }];
+        
+        if(idValue == nil) return NO;
+        
+        [valueArray addObject:idValue];
+        
+        /// [whereSQLString appendFormat:@" %@ = ?,", obj];
+        
+        NSString *sql = [NSString stringWithFormat:@"update %@ set %@ where %@ = ?", metaClass.classInfo.classname, setupSQL, [bean getId]];
+        
+        FMDatabase *database = [WFDatabaseHelper getDataBase];
+        rs = [database executeUpdate:sql withArgumentsInArray:valueArray];
+        [database commit];
+    }
+    else
+    {
+        [self myLog:@"Object type is error"];
+    }
+    return rs;
+}
 
 + (BOOL)DB_updateWithSetupSQL:(NSDictionary *)setupParam andWhereSQL:(NSDictionary *)whereSQLParam
 {

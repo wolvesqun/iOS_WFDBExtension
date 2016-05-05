@@ -340,7 +340,7 @@ NSNumber *WFCreateNSNumberFromID(__unsafe_unretained id value) {
                             char name[len - 2];
                             name[len - 3] = '\0';
                             memcpy(name, attrList[i].value + 2, len - 3);
-                            NSLog(@"%s", name);
+//                            NSLog(@"%s", name);
                             _cls = objc_getClass(name);
                         }
                     }
@@ -389,7 +389,7 @@ NSNumber *WFCreateNSNumberFromID(__unsafe_unretained id value) {
                     break;
             }
           
-            NSLog(@"==%@ , name = %s, value = %s",_name, attrList[i].name, attrList[i].value);
+//            NSLog(@"==%@ , name = %s, value = %s",_name, attrList[i].name, attrList[i].value);
         }
         _type = type;
         

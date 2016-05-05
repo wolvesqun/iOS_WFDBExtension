@@ -18,6 +18,6 @@
 
 @property (assign, nonatomic) NSInteger age;
 
-@property (copy, nonatomic) void(^(BLock_loginCallback))();
+@property (copy, nonatomic) void(^(BLock_loginCallback))(); // 测试，不会添加到数据库
 
 @end

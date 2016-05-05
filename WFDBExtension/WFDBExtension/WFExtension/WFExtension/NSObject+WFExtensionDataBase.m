@@ -677,7 +677,6 @@ typedef struct {
 
 + (BOOL)DB_updateWithBean:(id)bean
 {
-    if(![bean respondsToSelector:@selector(getId)] || [bean getId].length == 0) return NO;
     BOOL rs = NO;
     WF_DBMetaClassInfo *metaClass = [WF_DBMetaClassInfo metaWithClass:self.class];
     if(metaClass != nil && metaClass.classInfo.classname && WFClassTypeIsSameObjcType(bean, metaClass.allProperyArray))

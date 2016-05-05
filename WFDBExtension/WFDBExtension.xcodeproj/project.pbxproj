@@ -16,13 +16,6 @@
 		BC9FA85E1CD73A410035C6AB /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9FA8411CD73A410035C6AB /* FMDatabasePool.m */; settings = {ASSET_TAGS = (); }; };
 		BC9FA85F1CD73A410035C6AB /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9FA8431CD73A410035C6AB /* FMDatabaseQueue.m */; settings = {ASSET_TAGS = (); }; };
 		BC9FA8601CD73A410035C6AB /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9FA8461CD73A410035C6AB /* FMResultSet.m */; settings = {ASSET_TAGS = (); }; };
-		BC9FA8611CD73A410035C6AB /* NSObject+WFDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9FA8491CD73A410035C6AB /* NSObject+WFDatabase.m */; settings = {ASSET_TAGS = (); }; };
-		BC9FA8631CD73A410035C6AB /* WFDbExeension.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC9FA84C1CD73A410035C6AB /* WFDbExeension.plist */; settings = {ASSET_TAGS = (); }; };
-		BC9FA8641CD73A410035C6AB /* WFDBExtensioinConst.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9FA84E1CD73A410035C6AB /* WFDBExtensioinConst.m */; settings = {ASSET_TAGS = (); }; };
-		BC9FA8651CD73A410035C6AB /* WFDbExtensionIdConfigBean.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9FA8501CD73A410035C6AB /* WFDbExtensionIdConfigBean.m */; settings = {ASSET_TAGS = (); }; };
-		BC9FA8661CD73A410035C6AB /* WFFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9FA8521CD73A410035C6AB /* WFFoundation.m */; settings = {ASSET_TAGS = (); }; };
-		BC9FA8671CD73A410035C6AB /* WFIvar.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9FA8541CD73A410035C6AB /* WFIvar.m */; settings = {ASSET_TAGS = (); }; };
-		BC9FA8681CD73A410035C6AB /* WFType.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9FA8561CD73A410035C6AB /* WFType.m */; settings = {ASSET_TAGS = (); }; };
 		BC9FA8691CD73A410035C6AB /* NSObject+WFExtensionDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9FA8591CD73A410035C6AB /* NSObject+WFExtensionDataBase.m */; settings = {ASSET_TAGS = (); }; };
 		BC9FA86A1CD73A410035C6AB /* WFClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9FA85B1CD73A410035C6AB /* WFClassInfo.m */; settings = {ASSET_TAGS = (); }; };
 		BC9FA86C1CD73A9F0035C6AB /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9FA86B1CD73A9F0035C6AB /* libsqlite3.tbd */; };
@@ -61,19 +54,6 @@
 		BC9FA8441CD73A410035C6AB /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
 		BC9FA8451CD73A410035C6AB /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
 		BC9FA8461CD73A410035C6AB /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
-		BC9FA8481CD73A410035C6AB /* NSObject+WFDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WFDatabase.h"; sourceTree = "<group>"; };
-		BC9FA8491CD73A410035C6AB /* NSObject+WFDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WFDatabase.m"; sourceTree = "<group>"; };
-		BC9FA84C1CD73A410035C6AB /* WFDbExeension.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WFDbExeension.plist; sourceTree = "<group>"; };
-		BC9FA84D1CD73A410035C6AB /* WFDBExtensioinConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFDBExtensioinConst.h; sourceTree = "<group>"; };
-		BC9FA84E1CD73A410035C6AB /* WFDBExtensioinConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFDBExtensioinConst.m; sourceTree = "<group>"; };
-		BC9FA84F1CD73A410035C6AB /* WFDbExtensionIdConfigBean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFDbExtensionIdConfigBean.h; sourceTree = "<group>"; };
-		BC9FA8501CD73A410035C6AB /* WFDbExtensionIdConfigBean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFDbExtensionIdConfigBean.m; sourceTree = "<group>"; };
-		BC9FA8511CD73A410035C6AB /* WFFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFFoundation.h; sourceTree = "<group>"; };
-		BC9FA8521CD73A410035C6AB /* WFFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFFoundation.m; sourceTree = "<group>"; };
-		BC9FA8531CD73A410035C6AB /* WFIvar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFIvar.h; sourceTree = "<group>"; };
-		BC9FA8541CD73A410035C6AB /* WFIvar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFIvar.m; sourceTree = "<group>"; };
-		BC9FA8551CD73A410035C6AB /* WFType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFType.h; sourceTree = "<group>"; };
-		BC9FA8561CD73A410035C6AB /* WFType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFType.m; sourceTree = "<group>"; };
 		BC9FA8581CD73A410035C6AB /* NSObject+WFExtensionDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WFExtensionDataBase.h"; sourceTree = "<group>"; };
 		BC9FA8591CD73A410035C6AB /* NSObject+WFExtensionDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WFExtensionDataBase.m"; sourceTree = "<group>"; };
 		BC9FA85A1CD73A410035C6AB /* WFClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFClassInfo.h; sourceTree = "<group>"; };
@@ -158,7 +138,6 @@
 			isa = PBXGroup;
 			children = (
 				BC9FA83B1CD73A410035C6AB /* FMDB */,
-				BC9FA8471CD73A410035C6AB /* WFDBExtension */,
 				BC9FA8571CD73A410035C6AB /* WFExtension */,
 			);
 			path = WFExtension;
@@ -180,26 +159,6 @@
 				BC9FA8461CD73A410035C6AB /* FMResultSet.m */,
 			);
 			path = FMDB;
-			sourceTree = "<group>";
-		};
-		BC9FA8471CD73A410035C6AB /* WFDBExtension */ = {
-			isa = PBXGroup;
-			children = (
-				BC9FA8481CD73A410035C6AB /* NSObject+WFDatabase.h */,
-				BC9FA8491CD73A410035C6AB /* NSObject+WFDatabase.m */,
-				BC9FA84C1CD73A410035C6AB /* WFDbExeension.plist */,
-				BC9FA84D1CD73A410035C6AB /* WFDBExtensioinConst.h */,
-				BC9FA84E1CD73A410035C6AB /* WFDBExtensioinConst.m */,
-				BC9FA84F1CD73A410035C6AB /* WFDbExtensionIdConfigBean.h */,
-				BC9FA8501CD73A410035C6AB /* WFDbExtensionIdConfigBean.m */,
-				BC9FA8511CD73A410035C6AB /* WFFoundation.h */,
-				BC9FA8521CD73A410035C6AB /* WFFoundation.m */,
-				BC9FA8531CD73A410035C6AB /* WFIvar.h */,
-				BC9FA8541CD73A410035C6AB /* WFIvar.m */,
-				BC9FA8551CD73A410035C6AB /* WFType.h */,
-				BC9FA8561CD73A410035C6AB /* WFType.m */,
-			);
-			path = WFDBExtension;
 			sourceTree = "<group>";
 		};
 		BC9FA8571CD73A410035C6AB /* WFExtension */ = {
@@ -307,7 +266,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC9FA7D51CD739990035C6AB /* Assets.xcassets in Resources */,
-				BC9FA8631CD73A410035C6AB /* WFDbExeension.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,23 +283,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC9FA8611CD73A410035C6AB /* NSObject+WFDatabase.m in Sources */,
-				BC9FA8681CD73A410035C6AB /* WFType.m in Sources */,
 				BC9FA86A1CD73A410035C6AB /* WFClassInfo.m in Sources */,
 				BCF29EF51CD77C24001ABC8F /* WFDatabaseHelper.m in Sources */,
 				BCF29EF91CD7BB34001ABC8F /* User.m in Sources */,
 				BC9FA85E1CD73A410035C6AB /* FMDatabasePool.m in Sources */,
-				BC9FA8651CD73A410035C6AB /* WFDbExtensionIdConfigBean.m in Sources */,
 				BC9FA7CD1CD739990035C6AB /* AppDelegate.m in Sources */,
 				BC9FA85F1CD73A410035C6AB /* FMDatabaseQueue.m in Sources */,
-				BC9FA8661CD73A410035C6AB /* WFFoundation.m in Sources */,
 				BC9FA7CA1CD739990035C6AB /* main.m in Sources */,
 				BC9FA85C1CD73A410035C6AB /* FMDatabase.m in Sources */,
 				BC9FA8691CD73A410035C6AB /* NSObject+WFExtensionDataBase.m in Sources */,
-				BC9FA8671CD73A410035C6AB /* WFIvar.m in Sources */,
 				BC9FA8601CD73A410035C6AB /* FMResultSet.m in Sources */,
 				BC9FA85D1CD73A410035C6AB /* FMDatabaseAdditions.m in Sources */,
-				BC9FA8641CD73A410035C6AB /* WFDBExtensioinConst.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

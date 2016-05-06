@@ -37,13 +37,22 @@
 + (BOOL)DB_deleteWithIdValue:(id)idValue;
 + (BOOL)DB_deleteWithWhereSQL:(NSDictionary *)whereSQLParam;
 
+/**
+ *  update option
+ */
 + (BOOL)DB_updateWithBean:(id)bean;
 + (BOOL)DB_updateWithSetupSQL:(NSDictionary *)setupParam andWhereSQL:(NSDictionary *)whereSQLParam;
 
+/**
+ *  find bean by giving id value
+ */
 + (id)DB_findWithIdValue:(id)idValue;
 + (id)DB_findWithWhereSQL:(NSDictionary *)whereSQLParam;
 + (NSMutableArray *)DB_queryWithWhereSQL:(NSDictionary *)whereSQLParam andOrderby:(NSDictionary *)orderby;
 
+/**
+ *  check exist
+ */
 + (BOOL)DB_isExistWithWhereSQL:(NSDictionary *)whereSQLParam;
 + (BOOL)DB_isEmpty:(NSDictionary *)whereSQLParam;
 

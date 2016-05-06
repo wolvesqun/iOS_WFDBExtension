@@ -410,7 +410,7 @@ static void WFBeanSetNumberToProperty(__unsafe_unretained id model,
  @discussion Caller should hold strong reference to the parameters before this function returns.
  
  @param model Should not be nil.
- @param value Should not be nil, but can be NSNull.
+ @param rsSet Should not be nil, but can be NSNull.
  @param meta  Should not be nil, and meta->_setter should not be nil.
  */
 static void WFDBSetValueForProperty(__unsafe_unretained id model,
